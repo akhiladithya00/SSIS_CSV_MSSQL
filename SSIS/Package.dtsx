@@ -11,8 +11,8 @@
   DTS:LocaleID="16393"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="17"
-  DTS:VersionGUID="{750E8FEB-1ABB-4B32-AC1E-AD37621A0ABF}">
+  DTS:VersionBuild="18"
+  DTS:VersionGUID="{6F3793CB-B3F6-48D3-A986-5A41E9B0D10F}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA+nDz15YiyUOFPiyLkZIksAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAZOJY8zgx8ziUlc/mH0/Z5/PofKFrkHBDD7MJcIeEsSQAAAAAOgAAAAAIAACAAAABPhyR/MHlYVDpbbMZvvQT8xMwGBPZQPfUoiOpKPhvozyAAAADYj9BlGv1i12VI9PRd6/8v7K51aQDiulWZOs8kCIQjG0AAAAAM29DRrO3X2APkTNbSrAVVlJjyj3fj7LsK28PAS0Wrbp39J0MESV5Ejnv0ZM6OeM8KUcE+EK2b7YLn4c1izRmt</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA+nDz15YiyUOFPiyLkZIksAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADZCnfZFa+d1/l7A/W0JmrPpPDXxNAMUjq2uoTVZQ+6LAAAAAAOgAAAAAIAACAAAACdC3tRkfZso/Q6u2CU/qH2XJXUdBEpXX0RYYSjRfer/SAAAAAYX+HAXbwVjuR4njMaELifRvFu0saDTzI65gXyB8fdTEAAAAD15SCCXE7wh3jVtKNd2QIgCB2kXoM4amtZrcFT6lSQm5pypaj0kZNunYlg1f2fg8Bz9LfqvLxE+91yYCgWZz6Q</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -1116,13 +1116,13 @@ where [refTable].[EmployeeId] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Conditional Split Default Output]"
-          TopLeft="140.166664818923,92.5945950428703">
+          TopLeft="192.499996592602,92.5945950428703">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="125.999996642272,102.171172294974"
+              EndConnector="73.6666648685935,102.171172294974"
               Start="0,0"
-              End="125.999996642272,94.6711722949736">
+              End="73.6666648685935,94.671172294974">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
@@ -1133,20 +1133,20 @@ where [refTable].[EmployeeId] = ?</property>
                     Point2="0,51.0855861474868"
                     Point3="4,51.0855861474868" />
                   <mssgle:LineSegment
-                    End="121.999996642272,51.0855861474868" />
+                    End="69.6666648685935,51.0855861474868" />
                   <mssgle:CubicBezierSegment
-                    Point1="121.999996642272,51.0855861474868"
-                    Point2="125.999996642272,51.0855861474868"
-                    Point3="125.999996642272,55.0855861474868" />
+                    Point1="69.6666648685935,51.0855861474868"
+                    Point2="73.6666648685935,51.0855861474868"
+                    Point3="73.6666648685935,55.0855861474868" />
                   <mssgle:LineSegment
-                    End="125.999996642272,94.6711722949736" />
+                    End="73.6666648685935,94.671172294974" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-7.61390792886402,56.0855861474868,141.2278125,11.658203125"
+              BoundingBox="-33.7805738157033,56.0855861474868,141.2278125,11.658203125"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
